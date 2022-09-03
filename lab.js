@@ -6,9 +6,9 @@
 
 //Code here
 const me = {
-  name: Taylor,
-  age: 28
-}
+  name: "Taylor",
+  age: 28,
+};
 
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
@@ -20,14 +20,19 @@ const me = {
 
 //Code here
 
-
+const dog = {
+  name: "Phillip",
+  color:"brown",
+  age:3,
+  goodBoy:true
+};
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
 
-
+console.log(dog.name);
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
