@@ -323,7 +323,8 @@ const colors = {
 
 //Code Here 
 
-
+const colorSpread = {...colors};
+console.log(colorSpread);
 
 /*
  Now use the spread operator to combine the following 2 objects into one. 
@@ -351,6 +352,8 @@ const shippingInfo = {
 
 //Code Here
 
+const helensInfo = {...contactInfo, ...shippingInfo};
+console.log(helensInfo);
 
 //Print helensInfo to see what it looks like, there should be no repeating properties.
 
