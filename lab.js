@@ -130,8 +130,17 @@ function greeting( obj ) {
 
 function totalPopulation (obj) {
   const {utah, california, texas, arizona} = obj
-  return utah + california + texas + arizona
+  return utah+california+texas+arizona
 };
+
+const populationObj = {
+  utah: 12,
+  california: 13,
+  texas: 21,
+  arizona: 42
+};
+
+console.log('Total population: ', totalPopulation(populationObj));
 
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
