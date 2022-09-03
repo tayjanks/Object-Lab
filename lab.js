@@ -146,7 +146,10 @@ function totalPopulation (obj) {
 
 //Code Here
 
-
+function ingredients (obj) {
+  const {carb, fat, protein} = obj
+  return[carb, fat, protein]
+};
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
